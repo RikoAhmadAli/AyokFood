@@ -1,0 +1,20 @@
+# Ketergantungan (Dependencies)
+/node_modules
+/backend/node_modules
+/frontend/node_modules
+/.next/
+
+# File environment (SANGAT PENTING!)
+.env
+.env.local
+
+# File log
+logs
+*.log
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+
+# File upload dari user (opsional, tapi disarankan)
+/backend/public/uploads
